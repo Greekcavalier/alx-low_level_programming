@@ -1,0 +1,9 @@
+nt main(void_)
+      |     ^~~~
+5-print_numbers.c:15:2: error: implicit declaration of function ‘pintf’; did you mean ‘printf’? [-Werror=implicit-function-declaration]
+   15 |  pintf("\n");
+      |  ^~~~~
+      |  printf
+5-print_numbers.c:9:5: error: unused parameter ‘void_’ [-Werror=unused-parameter]
+    9 | int main(void_)
+
